@@ -1,0 +1,20 @@
+.encabezado {
+    background-color: blue;
+
+}
+
+@media (min-width:480px) {
+
+    .encabezado {
+        background-color: red;
+
+    }
+}
+
+
+
+
+@media (min-width:768px) {}
+
+
+@media (min-width:1024px) {}
