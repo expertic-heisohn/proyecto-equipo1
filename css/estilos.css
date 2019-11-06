@@ -2,11 +2,6 @@
 
 @media (min-width:300px) 
     {
-        body {
-   
-        }
-
-
         #menu-bar
         {
             display:none;
@@ -204,7 +199,6 @@
     
     
     @media (min-width:768px) {
-        body {}
     
         .encabezado {
             background: rgba(51, 51, 51, 0.8);
@@ -298,7 +292,6 @@
 
 @media (min-width:400px) {
 
-    body {}
 
     .encabezado {
         background: rgba(51, 51, 51, 0.8);
@@ -417,7 +410,7 @@
 
 
 @media (min-width:768px) {
-    body {}
+
 
     .encabezado {
         background: rgba(51, 51, 51, 0.8);
