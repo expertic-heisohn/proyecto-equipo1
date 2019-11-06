@@ -1,0 +1,8 @@
+
+.icon-menu:before { content: '\e800'; } /* '' */
+.icon-pc:before { content: '\f108'; } /* '' */
+.icon-lap:before { content: '\f109'; } /* '' */
+.icon-win:before { content: '\f17a'; } /* '' */
+.icon-face:before { content: '\f230'; } /* '' */
+.icon-w:before { content: '\f232'; } /* '' */
+.icon-ins:before { content: '\f32d'; } /* '' */
