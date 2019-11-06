@@ -3,16 +3,11 @@
 @media (min-width:300px) 
     {
         body {
-   
+
         }
-
-
-        #menu-bar
-        {
-            display:none;
-        
-            
-            }
+        #menu-bar{
+            display:none;                 
+        }
             
             
             header label
@@ -51,23 +46,15 @@
                         border-bottom:1px solid rgba(255,255,255,0.5);
                         font-size:36px;
                         
-                        }
-                        
-        
+                        }       
         .menu a:hover
         {
-            background:rgba(255,255,255,0.3);
-            
-            
-            }
-            
-            
-            
-            #menu-bar:checked~ .menu{
-                transform:translateX(0%)
-                }
-				
-
+            background:rgba(255,255,255,0.3);           
+        }
+             
+        #menu-bar:checked~ .menu{
+            transform:translateX(0%)
+        }
 .menu a:hover
 {
 	background:rgba(255,255,255,0.3);
@@ -79,13 +66,8 @@
 	
 	#menu-bar:checked~ .menu{
 		transform:translateX(0%)
-		}
-
-
-
-
-
-
+        }
+        
         .encabezado {
             background: rgba(51, 51, 51, 0.8);
             font-size: 25px;
@@ -106,27 +88,17 @@
             align-items: flex-end;
     
         }
-    
-    
-    
-        .frm_datos {
-    
-    
+       
+        .frm_datos {    
             color: snow;
             border-radius: 8px;
-            background: rgba(51, 51, 51, 0.8);
-    
-    
-    
+            background: rgba(51, 51, 51, 0.8);   
         }
-    
-    
-    
+       
         .label_formulario {
             font-size: 35px;
             text-align: center;
-            margin-top: 12px;
-    
+            margin-top: 12px;    
         }
     
         input {
@@ -159,14 +131,10 @@
             cursor: pointer;
         }
     
-        .button {
-    
-    
+        .button {   
             margin-top: 12px;
             float: none;
-            text-align: center;
-    
-    
+            text-align: center;    
         }
     
         .btnEnviar, .btnLimpiar {
@@ -175,19 +143,9 @@
             color: white;
             font-size: 2em;
             width: 119px;
-        }
-    
-    
-    
-    
-    
+        }   
     }
-    
-    
-    /**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-    
-    
-    
+    /**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/   
     @media (min-width:869px) {
     
         #lbradio {
@@ -196,13 +154,7 @@
     
         }
     }
-    
-    
-    
-    
-    
-    
-    
+   
     @media (min-width:768px) {
         body {}
     
@@ -212,9 +164,7 @@
             text-align: center;
             color: white;
             border-radius: 8px;
-            margin-top: -20px;
-    
-    
+            margin-top: -20px;  
         }
     
         #lbradio {
@@ -223,34 +173,23 @@
         }
     
         .frm_datos {
-    
-    
             color: snow;
             border-radius: 8px;
             background: rgba(51, 51, 51, 0.8);
-    
-    
-    
         }
-    
-    
     
         .label_formulario {
             font-size: 35px;
             text-align: center;
             margin-top: 12px;
-    
         }
     
         input {
-    
             border-radius: 8px;
             height: 32px;
             border-radius: 8px;
             margin-bottom: 12px;
             width: 25em;
-    
-    
         }
     
         select {
@@ -270,14 +209,10 @@
         }
     
         .button {
-    
             margin-left: 90px;
             margin-top: 12px;
             float: none;
             text-align: center;
-    
-    
-    
         }
     
         .btnEnviar,
@@ -288,17 +223,13 @@
             color: white;
             font-size: 2em;
         }
-    
-
     }
-
-
-
-
 
 @media (min-width:400px) {
 
-    body {}
+    body{
+    
+    }
 
     .encabezado {
         background: rgba(51, 51, 51, 0.8);
@@ -307,8 +238,6 @@
         color: white;
         border-radius: 8px;
         margin-top: -20px;
-
-
     }
 
     .radio_seleccion {
@@ -317,25 +246,14 @@
         padding-left: 5%;
         margin-bottom: 12px;
         margin-top: -12px;
-        ;
         align-items: flex-end;
-
     }
 
-
-
     .frm_datos {
-
-
         color: snow;
         border-radius: 8px;
         background: rgba(51, 51, 51, 0.8);
-
-
-
     }
-
-
 
     .label_formulario {
         font-size: 35px;
@@ -352,9 +270,6 @@
         margin-bottom: 12px;
         width: 13em;
         font-size: 25px;
-        ;
-
-
     }
 
     select {
@@ -375,8 +290,6 @@
     }
 
     .button {
-
-
         margin-top: 12px;
         float: none;
         text-align: center;
@@ -389,32 +302,16 @@
         color: white;
         font-size: 2em;
     }
-
-
-
-
-
 }
 
-
 /**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-
-
 
 @media (min-width:869px) {
 
     #lbradio {
         font-size: 50px;
-
-
     }
 }
-
-
-
-
-
-
 
 @media (min-width:768px) {
     body {}
@@ -426,8 +323,6 @@
         color: white;
         border-radius: 8px;
         margin-top: -20px;
-
-
     }
 
     #lbradio {
@@ -436,34 +331,23 @@
     }
 
     .frm_datos {
-
-
         color: snow;
         border-radius: 8px;
         background: rgba(51, 51, 51, 0.8);
-
-
-
     }
-
-
 
     .label_formulario {
         font-size: 35px;
         text-align: center;
         margin-top: 12px;
-
     }
 
     input {
-
         border-radius: 8px;
         height: 32px;
         border-radius: 8px;
         margin-bottom: 12px;
         width: 25em;
-
-
     }
 
     select {
@@ -483,14 +367,10 @@
     }
 
     .button {
-
         margin-left: 90px;
         margin-top: 12px;
         float: none;
         text-align: center;
-
-
-
     }
 
     .btnEnviar,
@@ -501,8 +381,6 @@
         color: white;
         font-size: 2em;
     }
-
-
 }
 
 /**+++++++++++++++++++++++++++GRANDE+++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -513,54 +391,39 @@
         padding: 0;
     }
 
-
-
     .menu
-			{
-				position:static;
-				width:auto;
-				height:auto;
-				transform:translateX(0%);
-				float:right;
-				display:flex;
-				font-size:20px;
-                margin-right:30%;
-                margin-top: -50px;
+        {
+            position:static;
+            width:auto;
+            height:auto;
+            transform:translateX(0%);
+            float:right;
+            display:flex;
+            font-size:20px;
+            margin-right:30%;
+            margin-top: -50px;
+        }
 				
-	
-				}
-				
-				.menu a
-				{
-					border:none;
-					font-size:20px;
-                    padding:7px;
-                    height: 22px;
-                    
-					
-					
-					}
-				header label
-				{
-					display:none;
-					}
-					.contenedor h1
-					{
-						font-size:40px;
-						margin-top:1%;
-					}
-					
-
-
-
-
-
-
-
-
-    
-
-
+        .menu a
+        {
+            border:none;
+            font-size:20px;
+            padding:7px;
+            height: 22px;
+            
+            
+            
+            }
+        header label
+        {
+            display:none;
+            }
+            .contenedor h1
+            {
+                font-size:40px;
+                margin-top:1%;
+            }
+            
     .radio_seleccion {
         display: flex;
         text-align: center;
@@ -569,17 +432,9 @@
         width: 700px;
     }
 
-
     #lbradio {
-
-
         font-size: 29px;
-
     }
-
-
-
-
 
     body {
         background: url("../imagenes/afiliadosSalud.png");
@@ -627,8 +482,6 @@
         max-width: 1600px;
     }
 
-
-
     .frm_datos {
         width: 60%;
         margin-left: 20%;
@@ -637,15 +490,11 @@
         font-size: 25px;
         background: rgba(51, 51, 51, 0.5);
         color: snow;
-
-
-
     }
 
     .label_formulario {
         margin-left: 30px;
         margin-bottom: 15px;
-
     }
 
     /*     .cedula{
@@ -685,13 +534,8 @@
                     }*/
 
     .button {
-
-
         display: flex;
         text-align: center;
-
-
-
     }
 
     .btnEnviar {
@@ -710,7 +554,6 @@
         cursor: pointer;
     }
 
-
     input:hover {
         box-shadow: 0px 6px 12px rgba(0, 0, 0, .20);
         border: 2px solid;
@@ -727,8 +570,6 @@
         cursor: pointer;
     }
 
-
-
     select:hover {
         box-shadow: 0px 6px 12px rgba(0, 0, 0, .20);
         border: 2px solid;
@@ -736,7 +577,6 @@
         color: snow;
         cursor: pointer;
     }
-
 
     .btnLimpiar {
         width: 310px;

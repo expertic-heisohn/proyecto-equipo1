@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,42 +8,28 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/estilosEmpresa.css">
     <link rel="stylesheet" href="css/fontello.css">
-   
-   
-    <title>Formulario Empresa</title>
 
+    <title>Formulario Empresa</title>
 </head>
 
 <body>
-
-      <header>
-
+    <header>
         <div class="contenedor">
-                    
-              
-                <input type="checkbox" id="menu-bar">
-                <label class="icon-menu" for="menu-bar"></label>
-
-
-
-               
-                
-                <nav class="menu">
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
                 <a href="index.html">Inicio</a>
                 <a href="Fpersona.html">Formulario Personas</a>
-                  <a href="Fempresa.html">Formulario Empresa</a>
+                <a href="Fempresa.html">Formulario Empresa</a>
                 <a href="">Otro</a>
-                
-                </nav>
-                
-                </div>
-            </header>
-                <!--encabezado y radiobutton-->
-                <div class="encabezado">
-                    <h1>Formulario Empresa</h1>
-                </div>
-            
-               <!-- <div class="radio_seleccion">
+            </nav>
+        </div>
+    </header>
+    <!--encabezado y radiobutton-->
+    <div class="encabezado">
+        <h1>Formulario Empresa</h1>
+    </div>
+    <!-- <div class="radio_seleccion">
             
                     <input type="radio" name="tipo_afiliacion" id="ta_independiente" value="Dependiente" checked="">
                     <label id="lbradio">Publica</label>
@@ -54,115 +41,97 @@
                     <label id="lbradio">Otra</label>
                 </div>
                 -->
-                </div>
-                <div class="contenedor2">
-            
-                    <form class="frm_datos" name="frm_datos" id="frm_datos" action="">
-                        <div class="select">
-                            <div class="label_formulario">
-                                <label for="tipo_documento">Tipo de documento<br>
-                                    <select class="tipoDocumento" name="tipo_documento" id="tipo_documento">
-                                        <option value="C.C." selected="selected">Cédula De ciudadanía</option>
-
-                                        <option value="NIT" selected="selected">NIT-I</option>
-                                        
-                                    </select>
-
-                                    <div class="label_formulario">
-                                            <label for="documento">Número de Documento<br>
-                                                <input type="text" class="cedula" id="documento" name="documento">
-                                            </label>
-                                        </div>
-
-                                    <div class="label_formulario">
-                                            <label for="documento">Digito de Verificacion<br>
-                                                <input type="text" class="cedula" id="documento" name="documento">
-                                            </label>
-                                        </div>
-                                </label>
-                            </div>
-                        </div>
-                        
-
+    <div class="contenedor2">
+        <form class="frm_datos" name="frm_datos" id="frm_datos" action="">
+            <div class="select">
+                <div class="label_formulario">
+                    <label for="tipo_documento">Tipo de documento<br>
+                        <select class="tipoDocumento" name="tipo_documento" id="tipo_documento">
+                            <option value="C.C." selected="selected">Cédula De ciudadanía</option>
+                            <option value="NIT" selected="selected">NIT-I</option>
+                        </select>
                         <div class="label_formulario">
-                                <label for="documento">Nombre o Razon Social<br>
-                                    <input type="text" class="cedula" id="documento" name="documento">
-                                </label>
-                            </div>
-
-                            <div class="label_formulario">
-                                    <label for="documento">Direccion<br>
-                                        <input type="text" class="cedula" id="documento" name="documento">
-                                    </label>
-                                </div>
-
-                        <div>
-                            <div class="label_formulario">
-                                <label for="departamento">Departamento<br>
-                                    <select class="departamento" name="departamento" id="departamento">
-                                        <option value="">Seleccione...</option>
-                                        <option value="1">Antioquia</option>
-                                        <option value="5">Atlántico</option>
-                                        <option value="8">Bolívar</option>
-                                        <option value="7">Caldas</option>
-                                        <option value="2">Cundinamarca</option>
-                                        <option value="9">Quindío</option>
-                                        <option value="6">Risaralda</option>
-                                        <option value="3">Santander</option>
-                                        <option value="4">Valle</option>
-                                    </select>
-                                </label>
-                            </div>
+                            <label for="documento">Número de Documento<br>
+                                <input type="text" class="cedula" id="documento" name="documento">
+                            </label>
                         </div>
-                        <div>
-                            <div class="label_formulario">
-                                <label for="ciudad">Ciudad<br>
-                                    <select class="ciudad" name="ciudad" id="ciudad">
-                                        <option value="">Seleccione...</option>
-                                        <option value="1">Medellín</option>
-                                        <option value="5">Barranquilla</option>
-                                        <option value="8">Cartagena</option>
-                                        <option value="7">Manizales</option>
-                                        <option value="2">Bogotá</option>
-                                        <option value="9">Armenia</option>
-                                        <option value="6">Pereira</option>
-                                        <option value="3">Bucaramanga</option>
-                                        <option value="4">Cali</option>
-                                    </select>
-                                </label>
-                            </div>
+                        <div class="label_formulario">
+                            <label for="documento">Digito de Verificacion<br>
+                                <input type="text" class="cedula" id="documento" name="documento">
+                            </label>
                         </div>
-                        <div class="label_formulario">Contacto y/o Representante Legal<br>
-                            <input type="text" class="contacto" id="contacto" name="contacto">
-                        </div>
-
-                        <div class="label_formulario">Telefono de Contacto<br>
-                            <input type="text" class="Telefono" id="Telefono" name="Telefono">
-                        </div>
-                        
-                        <div class="label_formulario">Email<br>
-                            <input type="email" class="email" id="email" name="email">
-                        </div>
-                        <div class="label_formulario">Confirmar Email<br>
-                            <input type="email" class="confirmaEmail" id="email" name="email">
-                        </div>
-                        <div class="button">
-                            <input class="btnEnviar" type="submit" id="btnEnviar" name="btnEnviar" value="Enviar">
-                            <input class="btnLimpiar" type="reset" id="btnLimpiar" name="btnLimpiar" value="Limpiar">
-                        </div>
-                    </form>
-                    <section>
-                        <footer>
-                            <p class="copy">EquipoUno&copy; 2019</p>
-                        </footer>
-            
-            
-            
+                    </label>
                 </div>
-            
-                </section>
-            
-
-    
+            </div>
+            <div class="label_formulario">
+                <label for="documento">Nombre o Razon Social<br>
+                    <input type="text" class="cedula" id="documento" name="documento">
+                </label>
+            </div>
+            <div class="label_formulario">
+                <label for="documento">Direccion<br>
+                    <input type="text" class="cedula" id="documento" name="documento">
+                </label>
+            </div>
+            <div>
+                <div class="label_formulario">
+                    <label for="departamento">Departamento<br>
+                        <select class="departamento" name="departamento" id="departamento">
+                            <option value="">Seleccione...</option>
+                            <option value="1">Antioquia</option>
+                            <option value="5">Atlántico</option>
+                            <option value="8">Bolívar</option>
+                            <option value="7">Caldas</option>
+                            <option value="2">Cundinamarca</option>
+                            <option value="9">Quindío</option>
+                            <option value="6">Risaralda</option>
+                            <option value="3">Santander</option>
+                            <option value="4">Valle</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div>
+                <div class="label_formulario">
+                    <label for="ciudad">Ciudad<br>
+                        <select class="ciudad" name="ciudad" id="ciudad">
+                            <option value="">Seleccione...</option>
+                            <option value="1">Medellín</option>
+                            <option value="5">Barranquilla</option>
+                            <option value="8">Cartagena</option>
+                            <option value="7">Manizales</option>
+                            <option value="2">Bogotá</option>
+                            <option value="9">Armenia</option>
+                            <option value="6">Pereira</option>
+                            <option value="3">Bucaramanga</option>
+                            <option value="4">Cali</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="label_formulario">Contacto y/o Representante Legal<br>
+                <input type="text" class="contacto" id="contacto" name="contacto">
+            </div>
+            <div class="label_formulario">Telefono de Contacto<br>
+                <input type="text" class="Telefono" id="Telefono" name="Telefono">
+            </div>
+            <div class="label_formulario">Email<br>
+                <input type="email" class="email" id="email" name="email">
+            </div>
+            <div class="label_formulario">Confirmar Email<br>
+                <input type="email" class="confirmaEmail" id="email" name="email">
+            </div>
+            <div class="button">
+                <input class="btnEnviar" type="submit" id="btnEnviar" name="btnEnviar" value="Enviar">
+                <input class="btnLimpiar" type="reset" id="btnLimpiar" name="btnLimpiar" value="Limpiar">
+            </div>
+        </form>
+    </div>
+    <section>
+        <footer>
+            <p class="copy">EquipoUno&copy; 2019</p>
+        </footer>
+    </section>
 </body>
+
 </html>

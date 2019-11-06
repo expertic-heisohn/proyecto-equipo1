@@ -1,97 +1,76 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
 @media (min-width:756px)
 {
 #menu-bar
 {
-	display:none;
-
-
+	display:none;	
+}
+	
+header label
+{
+	float:right;
+	cursor:pointer;
+	font-size:65px;
+	margin:6px 0;
 	
 	}
-	
-	
-	header label
+	.menu
 	{
-		float:right;
-		cursor:pointer;
-		font-size:65px;
-		margin:6px 0;
+		
+		position:absolute;
+		top:90px;
+		width:100%;
+		height:100vh;
+		left:0;
+		background-color:rgba(51,51,51,0.9);
+		transition:all 0.5s;
+		transform:translateX(-100%)
 		
 		}
-		.menu
+		.contenedor h1
+		{
+			font-size:30px;
+			background-color:rgba(51,51,51,0.9);
+			color: white;
+			text-align: center;
+			margin-top: 30%;
+
+				
+		}
+		.menu a
 		{
 			
-			position:absolute;
-			top:90px;
-			width:100%;
-			height:100vh;
-			left:0;
-			background-color:rgba(51,51,51,0.9);
-			transition:all 0.5s;
-			transform:translateX(-100%)
-			
-			}
-			.contenedor h1
-			{
-				font-size:30px;
-				background-color:rgba(51,51,51,0.9);
-				color: white;
-				text-align: center;
-margin-top: 30%;
-
+			display:block;
+			color:#fff;
+			height:1px;
+			text-decoration:none;
+			padding:30px;
+			border-bottom:1px solid rgba(255,255,255,0.5);
+			font-size:26px;			
+		}
 				
-				}
-			.menu a
-			{
-				
-				display:block;
-				color:#fff;
-				height:1px;
-				text-decoration:none;
-				padding:30px;
-				border-bottom:1px solid rgba(255,255,255,0.5);
-				font-size:26px;
-			
-				
-				
-				}
-				
-
 .menu a:hover
 {
-	background:rgba(255,255,255,0.3);
-	
-	
-	}
+	background:rgba(255,255,255,0.3);	
+}
+
 .icon-menu
 {
 	margin-top: -195px;
-}
-	
-	
-	
+}	
 	#menu-bar:checked~ .menu{
 		transform:translateX(0%)
 		}
-
 	}
-
-
-
 
 @media (min-width:300px)
 {
 #menu-bar
 {
-	display:none;
-
-
-	
-	}
+	display:none;	
+}
 	
 	
 	header label
@@ -122,12 +101,10 @@ margin-top: 30%;
 				color: white;
 				text-align: center;
 				margin-top: -1px;
-
-				
 				}
-			.menu a
-			{
-				
+
+				.menu a
+				{
 				display:block;
 				color:#fff;
 				height:1px;
@@ -135,29 +112,20 @@ margin-top: 30%;
 				padding:30px;
 				border-bottom:1px solid rgba(255,255,255,0.5);
 				font-size:26px;
-			
-				
-				
 				}
-				
-
+			
 .menu a:hover
 {
-	background:rgba(255,255,255,0.3);
-	
-	
-	}
+	background:rgba(255,255,255,0.3);	
+}
 .icon-menu
 {
 	margin-top: -19px;
 }
-	
-	
-	
-	#menu-bar:checked~ .menu{
-		transform:translateX(0%)
-		}
 
+#menu-bar:checked~ .menu{
+	transform:translateX(0%)
+	}
 	}
 		@media (min-width:1024px)
 		{
