@@ -1,9 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+
+@media (min-width:756px)
+{
 #menu-bar
 {
 	display:none;
+
 
 	
 	}
@@ -19,8 +24,9 @@
 		}
 		.menu
 		{
+			
 			position:absolute;
-			top:75px;
+			top:90px;
 			width:100%;
 			height:100vh;
 			left:0;
@@ -31,11 +37,11 @@
 			}
 			.contenedor h1
 			{
-				font-size:70px;
+				font-size:30px;
 				background-color:rgba(51,51,51,0.9);
 				color: white;
 				text-align: center;
-
+margin-top: 30%;
 
 				
 				}
@@ -46,9 +52,11 @@
 				color:#fff;
 				height:1px;
 				text-decoration:none;
-				padding:5px;
+				padding:30px;
 				border-bottom:1px solid rgba(255,255,255,0.5);
-				font-size:96px;
+				font-size:26px;
+			
+				
 				
 				}
 				
@@ -59,12 +67,98 @@
 	
 	
 	}
+.icon-menu
+{
+	margin-top: -195px;
+}
 	
 	
 	
 	#menu-bar:checked~ .menu{
 		transform:translateX(0%)
 		}
+
+	}
+
+
+
+
+@media (min-width:300px)
+{
+#menu-bar
+{
+	display:none;
+
+
+	
+	}
+	
+	
+	header label
+	{
+		float:right;
+		cursor:pointer;
+		font-size:65px;
+		margin:6px 0;
+		
+		}
+		.menu
+		{
+			
+			position:absolute;
+			top:190px;
+			width:100%;
+			height:100vh;
+			left:0;
+			background-color:rgba(51,51,51,0.9);
+			transition:all 0.5s;
+			transform:translateX(-100%)
+			
+			}
+			.contenedor h1
+			{
+				font-size:30px;
+				background-color:rgba(51,51,51,0.9);
+				color: white;
+				text-align: center;
+				margin-top: -1px;
+
+				
+				}
+			.menu a
+			{
+				
+				display:block;
+				color:#fff;
+				height:1px;
+				text-decoration:none;
+				padding:30px;
+				border-bottom:1px solid rgba(255,255,255,0.5);
+				font-size:26px;
+			
+				
+				
+				}
+				
+
+.menu a:hover
+{
+	background:rgba(255,255,255,0.3);
+	
+	
+	}
+.icon-menu
+{
+	margin-top: -19px;
+}
+	
+	
+	
+	#menu-bar:checked~ .menu{
+		transform:translateX(0%)
+		}
+
+	}
 		@media (min-width:1024px)
 		{
 			.menu
