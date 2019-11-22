@@ -7,6 +7,10 @@ Aca todo lo de java
 
 #### Instruciones para el backend
 
+- Paso 1:
+
+- Paso 2:
+
 ### frontend
 Aca va todo lo del codigo del frontend en Angular y MDBootstrap
 
