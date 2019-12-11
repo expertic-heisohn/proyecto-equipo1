@@ -1,7 +1,7 @@
 <div>
-  <h1>Usuarios</h1>
+  <h1>Empleado</h1>
   <button type="button" mdbBtn color="primary" class="relative waves-light" (click)="basicModal.show()" mdbWavesEffect>
-    Crear Usuario
+    Crear Empleado
   </button>
   <table mdbTable>
     <thead>
@@ -11,10 +11,13 @@
     </thead>
     <tbody>
       <tr mdbTableCol *ngFor="let usuario of usuarios; let i = index">
-        <th scope="row">{{ i }}</th>
+        <th scope="row">{{ usuario.id }}</th>
         <td>{{ usuario.nombre }}</td>
+        <td>{{ usuario.apellido }}</td>
+        <td>{{ usuario.dIdentidad }}</td>
+        <td>{{ usuario.feNacimiento }}</td>
         <td>
-          <mdb-icon fas icon="trash" (click)="deleteUsuario(i)"></mdb-icon>
+          <mdb-icon fas icon="trash" (click)="deleteUsuario(usuario.id)"></mdb-icon>
         </td>
       </tr>
     </tbody>
@@ -27,7 +30,7 @@
           <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
             <span aria-hidden="true">×</span>
           </button>
-          <h4 class="modal-title w-100" id="myModalLabel">Nuevo Usuario</h4>
+          <h4 class="modal-title w-100" id="myModalLabel">Nuevo Empleado</h4>
         </div>
         <div class="modal-body">
           <div class="md-form">
