@@ -10,11 +10,13 @@ import {
 import { HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from "./app.component";
+import { App2Component } from "./app2.component";
 import { UsuariosComponent } from "./components/usuarios.component";
+import { EmpleadoresComponent } from "./components/empleadores.component";
 import { UsuariosService } from "./services/usuarios.service";
 
 @NgModule({
-  declarations: [AppComponent, UsuariosComponent],
+  declarations: [AppComponent, App2Component, UsuariosComponent, EmpleadoresComponent],
   imports: [
     BrowserModule,
     MDBBootstrapModule.forRoot(),
@@ -26,6 +28,6 @@ import { UsuariosService } from "./services/usuarios.service";
     ReactiveFormsModule
   ],
   providers: [UsuariosService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, App2Component]
 })
 export class AppModule {}
