@@ -9,13 +9,13 @@ export class UsuariosService {
 
   getUsuarios(): Observable<IUsuario[]> {
     return this.http.get<IUsuario[]>(
-      "https://bootcamp-dia-3.camilomontoyau.now.sh/usuarios"
+      "http://localhost:8080/heinson-api-0.0.1-SNAPSHOT/EmpleadoRestServlet"
     );
   }
 
   deleteUsuario(indice: number): Observable<any> {
     return this.http.delete<any>(
-      `https://bootcamp-dia-3.camilomontoyau.now.sh/usuarios/${indice}`
+      `http://localhost:8080/heinson-api-0.0.1-SNAPSHOT/EmpleadoRestServlet?id=${indice}`
     );
   }
 
@@ -27,7 +27,7 @@ export class UsuariosService {
     };
 
     return this.http.post<IUsuario>(
-      "http://localhost:8080/heinsonh-api/api/v1/empleado",
+      "http://localhost:8080/heinson-api-0.0.1-SNAPSHOT/EmpleadoRestServlet",
       usuario,
       httpOptions
     );
