@@ -10,7 +10,7 @@ export class UsuariosComponent implements OnInit {
   constructor(private usuariosService: UsuariosService) {}
 
   public usuarios = [];
-  public headElements = ["id", "nombre", "acciones"];
+  public headElements = ["id", "nombre", "apellido", "Numero de Identificacion", "Fecha de Nacimiento", "acciones"];
 
   public nombreInput = new FormControl();
   public apellidoInput = new FormControl();
